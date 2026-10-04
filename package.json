@@ -1,0 +1,12 @@
+{
+  "name": "esim-vietnam",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "import:tariffs": "node --env-file-if-exists=.env scripts/import-tariffs.mjs"
+  },
+  "engines": { "node": ">=22" }
+}
